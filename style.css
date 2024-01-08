@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?b=1&s=170667a&w=0&k=20&c=uCahXbJFxh5m_cKjgUlsO-LdylkKMoRmzSLCJQJSJFQ="); 
+    background-size: cover;
+}
+
+.container {
+    background-image: linear-gradient(rgba(240, 236, 236, 0.397), rgba(226, 226, 238, 0.7)), url("https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?b=1&s=170667a&w=0&k=20&c=uCahXbJFxh5m_cKjgUlsO-LdylkKMoRmzSLCJQJSJFQ="); 
+    width: 300px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2%;
+    background-color: #fff;
+
+}
+
+.srh {
+    display: flex;
+    margin-top: 11px;
+}
+
+input {
+    width: 200px;
+    padding: 16px;
+    border-radius: 16px;
+    height: 8px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: rgb(206,236,246);
+}
+::placeholder {
+    color: black;
+    /* inter location color */
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: rgb(191,235,520);
+    margin-top: 2px;
+    margin-inline: 9px; 
+    cursor: pointer;
+    transition: 0.3sc ease;
+}
+
+#city {
+    margin-top: 40px;
+    font-size: 33px;
+}
+
+#temp {
+    font-size: 40px;
+    margin-top: -7px;
+}
+
+#type {
+    font-size: 26px;
+    margin-top: -33px;
+}
+
+
+#country {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+img {
+    width: 210px;
+    border-radius: 35px 5px 35px 5px;
+    margin-top: -22px;
+}

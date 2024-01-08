@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="srh">
+            <input type="text" id="inp" value="" placeholder="Enter Location" onkeydown="onlyEnter(event)">
+            <button onclick="myFun()">Search</button>
+        </div>
+
+        <h2 id="city"></h2>
+        <img id="img" src="" alt="">
+        <h2 id="temp"></h2>
+        <h2 id="type"></h2>
+        <h2 id="country"></h2>
+
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
